@@ -1,0 +1,9 @@
+def __init__(self, digit):
+        super().__init__()
+        self.fudze1 = digit[0]
+        self.fudze2 = digit[1]
+        self.simagle = digit[2]
+    def __str__(self):
+        return str(self.fudze1)+", "+str(self.fudze2)+", "+ str(self.simagle)
+    def t_fartobi(self):
+        return (self.fudze1 + self.fudze2) / 2 * self.simagle 
