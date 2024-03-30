@@ -1,0 +1,11 @@
+ rec = Rectangle(Digit_list[0])
+        self.CalcL.setText(f'Area Of Trapezoid: {rec.m_fartobi()} m\u00b2')
+
+
+  self.PictureL.setPixmap(QtGui.QPixmap("Trapezoid.jpg"))
+
+
+  self.RectangleB.clicked.connect(self.Size_Rectangle)
+
+
+  Digit_list = [[rd.randint(1, 200), rd.randint(1, 200), rd.randint(1, 200)] for i in range(10)]
